@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsAL", "MethodsAL\MethodsAL.csproj", "{1B88D249-F25A-47DB-BE76-6316DA2C4EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodTesting", "MethodTesting\MethodTesting.csproj", "{8D012E52-1EBA-4817-924B-3DA5E0D0E515}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B88D249-F25A-47DB-BE76-6316DA2C4EC3}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{1B88D249-F25A-47DB-BE76-6316DA2C4EC3}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{1B88D249-F25A-47DB-BE76-6316DA2C4EC3}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{1B88D249-F25A-47DB-BE76-6316DA2C4EC3}.Release|anycpu.Build.0 = Release|Any CPU
+		{8D012E52-1EBA-4817-924B-3DA5E0D0E515}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{8D012E52-1EBA-4817-924B-3DA5E0D0E515}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{8D012E52-1EBA-4817-924B-3DA5E0D0E515}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{8D012E52-1EBA-4817-924B-3DA5E0D0E515}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
