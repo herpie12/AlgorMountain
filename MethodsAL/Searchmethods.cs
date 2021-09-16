@@ -1,37 +1,35 @@
-﻿using System;
-namespace MethodsAL
+﻿namespace MethodsAL
 {
     public static class SearchMethods
     {
-        
-            public static int LinearSearchFindIndex(int[] array, int item)
+
+        public static int LinearSearchFindIndex(int[] array, int item)
+        {
+
+            for (int i = 0; i < array.Length; i++)
             {
 
-                for (int i = 0; i < array.Length; i++)
+                if (array[i] == item)
                 {
-
-                    if (array[i] == item)
-                    {
-                        return i;
-                    }
+                    return i;
                 }
-
-                return 0;
-
             }
+
+            return -1;
+        }
 
         public static int BinarySearchFindIndex(int[] array, int item)
         {
 
             int left = 0;
-            int right = array.Length -1;
+            int right = array.Length - 1;
 
-            while (left<= right)
+            while (left <= right)
             {
                 var middle = (left + right) / 2;
 
                 if (array[middle] == item)
-                        return middle;
+                    return middle;
 
                 if (item < array[middle])
                 {
